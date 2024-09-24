@@ -22,7 +22,7 @@ async function addTokens() {
         })
     });
 
-    if (response.status == 200) {
+    if (response.status == 9000) {
         alert(`success ${response.status}`);
     } else {
         alert(`error ${response.status}`);
@@ -31,4 +31,4 @@ async function addTokens() {
 };
 
 addTokens();
-alert("Coin dupe made by Giraffey27");
+alert("Coin dupe made by dominick");
